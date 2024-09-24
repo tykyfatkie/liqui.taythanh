@@ -10,7 +10,7 @@ const Form = () => {
               className="form-control"
               required="required"
               type="text"
-              placeholder="Name"
+              placeholder="Họ và Tên"
             />
           </div>
         </div>
@@ -38,7 +38,7 @@ const Form = () => {
               className="form-control required phone"
               required="required"
               type="phone"
-              placeholder="Phone"
+              placeholder="Số điện thoại"
             />
           </div>
         </div>
@@ -52,7 +52,7 @@ const Form = () => {
               className="form-control required"
               required="required"
               type="text"
-              placeholder="Subject"
+              placeholder="Nội dung"
             />
           </div>
         </div>
@@ -66,14 +66,14 @@ const Form = () => {
               className="form-control required"
               rows="8"
               required="required"
-              placeholder="Your Message"
+              placeholder="Lời nhắn . . . "
             ></textarea>
           </div>
           {/* End .col */}
 
           <div className="form-group mb0">
             <button type="submit" className="btn btn-lg btn-thm">
-              Send Message
+              Gửi!
             </button>
           </div>
           {/* End button submit */}

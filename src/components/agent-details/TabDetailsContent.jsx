@@ -9,7 +9,7 @@ const TabDetailsContent = () => {
   return (
     <>
       <ul className="nav nav-tabs" id="myTab" role="tablist">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a
             className="nav-link active"
             data-bs-toggle="tab"
@@ -20,7 +20,7 @@ const TabDetailsContent = () => {
           >
             Thông tin
           </a>
-        </li>
+        </li> */}
         {/* End Description tab */}
 
 
@@ -34,7 +34,7 @@ const TabDetailsContent = () => {
       {/* End .nav nav-tabs */}
 
       <div className="tab-content" id="myTabContent2">
-        <div
+        {/* <div
           className="tab-pane fade show active"
           id="description"
           role="tabpanel"
@@ -48,7 +48,7 @@ const TabDetailsContent = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Description details content*/}
 
 

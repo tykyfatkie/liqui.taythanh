@@ -20,12 +20,6 @@ const ListingGallery = () => {
               </div>
               <div className="col-lg-5 col-xl-4">
                 <div className="single_property_social_share position-static transform-none">
-                  <div className="price float-start fn-400">
-                    <h2>
-                      ${singleItem.price}
-                      <small>/mo</small>
-                    </h2>
-                  </div>
 
                   <div className="spss style2 mt20 text-end tal-400">
                     <ul className="mb0">
@@ -58,61 +52,7 @@ const ListingGallery = () => {
             {/* End .row */}
 
             <div className="row">
-              <div className="col-sm-7 col-lg-8">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <div className="spls_style_two mb30-520">
-                      <Item
-                        original={singleItem.img}
-                        thumbnail={singleItem.img}
-                        width={752}
-                        height={450}
-                      >
-                        {({ ref, open }) => (
-                          <div role="button" ref={ref} onClick={open}>
-                            <img
-                             
-                              className="img-fluid w100 lds-1 cover h-100"
-                              src={singleItem.img}
-                              alt="1.jpg"
-                            />
-                          </div>
-                        )}
-                      </Item>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* End .col-sm-7 .col-lg-8 */}
 
-              <div className="col-sm-5 col-lg-4">
-                <div className="row">
-                  {singleItem.imgList.map((val, i) => (
-                    <div className="col-6" key={i}>
-                      <div className="spls_style_two img-gallery-box mb24">
-                        <Item
-                          original={val}
-                          thumbnail={val}
-                          width={752}
-                          height={450}
-                        >
-                          {({ ref, open }) => (
-                            <div role="button" ref={ref} onClick={open}>
-                              <img
-                               
-                                className="img-fluid w100  cover"
-                                src={val}
-                                alt="2.jpg"
-                              />
-                            </div>
-                          )}
-                        </Item>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              {/* End  col-sm-5 col-lg-4 */}
             </div>
             {/* End .row */}
           </div>

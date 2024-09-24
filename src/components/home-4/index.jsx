@@ -52,7 +52,7 @@ const index = () => {
           {/* <div className="row">
             <div className="col-lg-12">
               <h4 className="text-center color-white fw600 mb25 mb0-520">
-                What are you looking for?
+                Đăng ký 
               </h4>
               <ul className="home4_iconbox mb0">
                 <LookingItem />
@@ -74,7 +74,7 @@ const index = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-6">
               <div className="best_property_slider gutter-x15">
                 <FeaturedProperties />
               </div>

@@ -5,17 +5,17 @@ const AdditionalDetails = () => {
         <ul className="list-inline-item">
           <li>
             <p>
-              Deposit : <span>20%</span>
+              Số lượng team : <span>24</span>
             </p>
           </li>
           <li>
             <p>
-              Pool Size : <span>300 Sqft</span>
+              Tổng giải thưởng : <span>Trên 2.000.000VND</span>
             </p>
           </li>
           <li>
             <p>
-              Additional Rooms : <span>Guest Bath</span>
+              Đối tượng : <span>HS Tây Thạnh/Cựu HS Tây Thạnh và HS trường THPT Trần Phú, THPT Bình Hưng Hòa và THPT Lê Trọng Tấn</span>
             </p>
           </li>
         </ul>
@@ -24,17 +24,17 @@ const AdditionalDetails = () => {
         <ul className="list-inline-item">
           <li>
             <p>
-              Last remodel year : <span>1987</span>
+              Lệ phí : <span>100.000VND/team</span>
             </p>
           </li>
           <li>
             <p>
-              Amenities : <span>Clubhouse</span>
+              Hình thức thi đấu : <span>Tính điểm</span>
             </p>
           </li>
           <li>
             <p>
-              Equipment : <span>Grill - Gas</span>
+              Yêu cầu : <span>Mỗi team có ít nhất 2 HS THPT Tây Thạnh và không có người ngoài đối tượng được kể</span>
             </p>
           </li>
         </ul>

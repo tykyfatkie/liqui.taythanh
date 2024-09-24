@@ -12,7 +12,7 @@ const PropertyVideo = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="oqNZOOWF8qM"
+        videoId="dQw4w9WgXcQ"
         onClose={() => setOpen(false)}
       />
       <ul className="nav nav-tabs" id="myTab" role="tablist">
@@ -23,17 +23,7 @@ const PropertyVideo = () => {
             href="#description"
             role="tab"
           >
-            Property video
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className="nav-link"
-            data-bs-toggle="tab"
-            href="#listing"
-            role="tab"
-          >
-            Virtual Tour
+            Video
           </a>
         </li>
       </ul>

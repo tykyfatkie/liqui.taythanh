@@ -40,7 +40,7 @@ const Team = () => {
 
   return (
     <Slider {...settings} arrows={true}>
-      {agentsTeam.slice(0, 6).map((item) => (
+      {agentsTeam.slice(0, 5).map((item) => (
         <div className="item" key={item.id}>
           <div className="team_member home4">
             <div className="thumb">

@@ -299,34 +299,34 @@ const HeaderMenuContent = ({ float = "" }) => {
       </li> */}
       {/* End .dropitem */}
 
-      {/* <li className="last">
+      <li className="last">
         <Link
           to="/contact"
           className={pathname === "/contact" ? "ui-active" : undefined}
         >
-          Contact
+          Liên hệ
         </Link>
-      </li> */}
+      </li>
       {/* End .dropitem */}
 
-      {/* <li className={`list-inline-item list_s ${float}`}>
+      <li className={`list-inline-item list_s ${float}`}>
         <a
           href="#"
           className="btn flaticon-user"
           data-bs-toggle="modal"
           data-bs-target=".bd-example-modal-lg"
         >
-          <span className="dn-lg">Login/Register</span>
+          <span className="dn-lg">Đăng nhập/Đăng ký</span>
         </a>
-      </li> */}
+      </li>
       {/* End .dropitem */}
 
-      {/* <li className={`list-inline-item add_listing ${float}`}>
-        <Link to="/create-listing">
+      <li className={`list-inline-item add_listing ${float}`}>
+        <a href="https://discord.gg/dV4PDpg4st" target="_blank" rel="noopener noreferrer">
           <span className="flaticon-plus"></span>
-          <span className="dn-lg"> Create Listing</span>
-        </Link>
-      </li> */}
+          <span className="dn-lg"> Tham gia Discord</span>
+        </a>
+      </li>
       {/* End .dropitem */}
     </ul>
   );

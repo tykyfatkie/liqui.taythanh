@@ -7,10 +7,10 @@ import properties from "../../data/properties";
 
 const FeaturedProperties = () => {
   const settings = {
-    dots: true,
+    dots: false,
     arrows: false,
-    slidesToShow: 4,
-    slidesToScroll: 3,
+    slidesToShow: 1,
+    slidesToScroll: 12,
     autoplay: false,
     speed: 1200,
     responsive: [
@@ -72,14 +72,6 @@ const FeaturedProperties = () => {
                       </a>
                     </li>
                   </ul>
-
-                  <Link
-                    to={`/listing-details-v1/${item.id}`}
-                    className="fp_price"
-                  >
-                    ${item.price}
-                    <small>/mo</small>
-                  </Link>
                 </div>
               </div>
               <div className="details">
