@@ -14,7 +14,6 @@ const agent = [
     type: "Nhân viên quét rác",
     office: "10C4 (2019)",
     email: "gg.fctaiphat@yahoo.com",
-    city: "Atlanta",
   },
   {
     id: 2,
@@ -59,7 +58,7 @@ const agent = [
     ],
     name: `Lương Phan Quỳnh Giao`,
     type: "Designer",
-    office: "10C (2024)",
+    office: "10C23 (2024)",
     email: "lgiao5134@gmail.com",
   },
   {
@@ -71,7 +70,7 @@ const agent = [
     ],
     name: `Nguyễn Minh Hòa`,
     type: "Caster LQM",
-    office: "10C (2024)",
+    office: "10C4 (2024)",
     email: "nguyenminhhoa618ch@gmail.com",
 
   },
