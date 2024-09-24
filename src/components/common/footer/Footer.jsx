@@ -9,55 +9,29 @@ const Footer = () => {
         <div className="footer_about_widget">
           <h4>About Site</h4>
           <p>
-            We’re reimagining how you buy, sell and rent. It’s now easier to get
-            into a place you love. So let’s do this, together.
+            Đây là website gồm các thông tin của giải Liên Quân Mobile trường THPT Tây Thạnh.
           </p>
         </div>
       </div>
       {/* End .col */}
 
       <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
-        <div className="footer_qlink_widget">
-          <h4>Quick Links</h4>
-          <ul className="list-unstyled">
-            <li>
-              <Link to="/">About Us</Link>
-            </li>
-            <li>
-              <Link to="/">Terms & Conditions</Link>
-            </li>
-            <li>
-              <Link to="/">User’s Guide</Link>
-            </li>
-            <li>
-              <Link to="/">Support Center</Link>
-            </li>
-            <li>
-              <Link to="/">Press Info</Link>
-            </li>
-          </ul>
-        </div>
+
       </div>
       {/* End .col */}
 
       <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
         <div className="footer_contact_widget">
-          <h4>Contact Us</h4>
+          <h4>Liên hệ</h4>
           <ul className="list-unstyled">
             <li>
-              <a href="mailto:info@findhouse.com">info@findhouse.com</a>
+              <a href="mailto:info@findhouse.com">Email: taythanh.junior@gmail.com</a>
             </li>
             <li>
-              <a href="#">Collins Street West, Victoria</a>
+              <a href="#">Địa chỉ: Trường THPT Tây Thạnh, P.Tây Thạnh, Q.Tân Phú, TP.HCM</a>
             </li>
             <li>
-              <a href="#">8007, Australia.</a>
-            </li>
-            <li>
-              <a href="tel:+4733378901">+1 246-345-0699</a>
-            </li>
-            <li>
-              <a href="tel:+4733378901">+1 246-345-0695</a>
+              <a href="tel:+8417591280">SĐT: 0817591280</a>
             </li>
           </ul>
         </div>
@@ -66,12 +40,10 @@ const Footer = () => {
 
       <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
         <div className="footer_social_widget">
-          <h4>Follow us</h4>
+          <h4>Fanpage</h4>
           <ul className="mb30">
             <Social />
           </ul>
-          <h4>Subscribe</h4>
-          <SubscribeForm />
         </div>
       </div>
     </>

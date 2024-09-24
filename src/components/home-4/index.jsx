@@ -45,7 +45,7 @@ const index = () => {
                     Giải Liên Quân Mobile | Trường THPT Tây Thạnh
                   </p>
                 </div>
-                <GlobalHeroFilter className="home4" />
+                {/* <GlobalHeroFilter className="home4" /> */}
               </div>
             </div>
           </div>
